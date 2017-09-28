@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include <iostream>
 
-//using namespace std;
+using namespace std;
 //
 //int main() {
 ////	冒泡排序

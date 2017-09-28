@@ -36,16 +36,16 @@ int findKMax(int a[],int i,int n,int k){
     return index;
 }
 
-int main() {
-    int n, m;
-    cin >> n >> m;
-    int num[n] = {0};
-    for (int i = 0; i < n; i++) {
-        cin >> num[i];
-    }
-    findKMax(num,0,n-1,m);
-    for(int i=0;i<m;i++){
-        cout<<num[i]<<endl;
-    }
-    return 0;
-}
+//int main() {
+//    int n, m;
+//    cin >> n >> m;
+//    int num[n] = {0};
+//    for (int i = 0; i < n; i++) {
+//        cin >> num[i];
+//    }
+//    findKMax(num,0,n-1,m);
+//    for(int i=0;i<m;i++){
+//        cout<<num[i]<<endl;
+//    }
+//    return 0;
+//}
